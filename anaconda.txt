@@ -1,47 +1,63 @@
-1¡¢Ê×ÏÈÔÚËùÔÚÏµÍ³ÖĞ°²×°Anaconda¡£
+1ã€é¦–å…ˆåœ¨æ‰€åœ¨ç³»ç»Ÿä¸­å®‰è£…Anacondaã€‚
 
-¿ÉÒÔ´ò¿ªÃüÁîĞĞÊäÈëconda -V¼ìÑéÊÇ·ñ°²×°ÒÔ¼°µ±Ç°condaµÄ°æ±¾¡£
+å¯ä»¥æ‰“å¼€å‘½ä»¤è¡Œè¾“å…¥conda -Væ£€éªŒæ˜¯å¦å®‰è£…ä»¥åŠå½“å‰condaçš„ç‰ˆæœ¬ã€‚
 
-2¡¢conda³£ÓÃµÄÃüÁî¡£
+2ã€condaå¸¸ç”¨çš„å‘½ä»¤ã€‚
 
-    1£©conda list ²é¿´°²×°ÁËÄÄĞ©°ü¡£
+    1ï¼‰conda list æŸ¥çœ‹å®‰è£…äº†å“ªäº›åŒ…ã€‚
 
-    2£©conda env list »ò conda info -e ²é¿´µ±Ç°´æÔÚÄÄĞ©ĞéÄâ»·¾³
+    2ï¼‰conda env list æˆ– conda info -e æŸ¥çœ‹å½“å‰å­˜åœ¨å“ªäº›è™šæ‹Ÿç¯å¢ƒ
 
-    3£©conda update conda ¼ì²é¸üĞÂµ±Ç°conda
+    3ï¼‰conda update conda æ£€æŸ¥æ›´æ–°å½“å‰conda
 
-3¡¢´´½¨pythonĞéÄâ»·¾³¡£
+3ã€åˆ›å»ºpythonè™šæ‹Ÿç¯å¢ƒã€‚
 
-     Ê¹ÓÃ conda create -n your_env_name python=X.X£¨2.7¡¢3.6µÈ)ÃüÁî´´½¨python°æ±¾ÎªX.X¡¢Ãû×ÖÎªyour_env_nameµÄĞéÄâ»·¾³¡£your_env_nameÎÄ¼ş¿ÉÒÔÔÚAnaconda°²×°Ä¿Â¼envsÎÄ¼şÏÂÕÒµ½¡£
+     ä½¿ç”¨ conda create -n your_env_name python=X.Xï¼ˆ2.7ã€3.6ç­‰)å‘½ä»¤åˆ›å»ºpythonç‰ˆæœ¬ä¸ºX.Xã€åå­—ä¸ºyour_env_nameçš„è™šæ‹Ÿç¯å¢ƒã€‚your_env_nameæ–‡ä»¶å¯ä»¥åœ¨Anacondaå®‰è£…ç›®å½•envsæ–‡ä»¶ä¸‹æ‰¾åˆ°ã€‚
 
-4¡¢Ê¹ÓÃ¼¤»î(»òÇĞ»»²»Í¬python°æ±¾)µÄĞéÄâ»·¾³¡£
+4ã€ä½¿ç”¨æ¿€æ´»(æˆ–åˆ‡æ¢ä¸åŒpythonç‰ˆæœ¬)çš„è™šæ‹Ÿç¯å¢ƒã€‚
 
-    ´ò¿ªÃüÁîĞĞÊäÈëpython --version¿ÉÒÔ¼ì²éµ±Ç°pythonµÄ°æ±¾¡£
+    æ‰“å¼€å‘½ä»¤è¡Œè¾“å…¥python --versionå¯ä»¥æ£€æŸ¥å½“å‰pythonçš„ç‰ˆæœ¬ã€‚
 
-    Ê¹ÓÃÈçÏÂÃüÁî¼´¿É ¼¤»îÄãµÄĞéÄâ»·¾³(¼´½«pythonµÄ°æ±¾¸Ä±ä)¡£
+    ä½¿ç”¨å¦‚ä¸‹å‘½ä»¤å³å¯ æ¿€æ´»ä½ çš„è™šæ‹Ÿç¯å¢ƒ(å³å°†pythonçš„ç‰ˆæœ¬æ”¹å˜)ã€‚
 
-    Linux:  source activate your_env_name(ĞéÄâ»·¾³Ãû³Æ)
+    Linux:  source activate your_env_name(è™šæ‹Ÿç¯å¢ƒåç§°)
 
-    Windows: activate your_env_name(ĞéÄâ»·¾³Ãû³Æ)
+    Windows: activate your_env_name(è™šæ‹Ÿç¯å¢ƒåç§°)
 
-   ÕâÊÇÔÙÊ¹ÓÃpython --version¿ÉÒÔ¼ì²éµ±Ç°python°æ±¾ÊÇ·ñÎªÏëÒªµÄ¡£
+   è¿™æ˜¯å†ä½¿ç”¨python --versionå¯ä»¥æ£€æŸ¥å½“å‰pythonç‰ˆæœ¬æ˜¯å¦ä¸ºæƒ³è¦çš„ã€‚
 
-5¡¢¶ÔĞéÄâ»·¾³ÖĞ°²×°¶îÍâµÄ°ü¡£
+5ã€å¯¹è™šæ‹Ÿç¯å¢ƒä¸­å®‰è£…é¢å¤–çš„åŒ…ã€‚
 
-    Ê¹ÓÃÃüÁîconda install -n your_env_name [package]¼´¿É°²×°packageµ½your_env_nameÖĞ
+    ä½¿ç”¨å‘½ä»¤conda install -n your_env_name [package]å³å¯å®‰è£…packageåˆ°your_env_nameä¸­
 
-6¡¢¹Ø±ÕĞéÄâ»·¾³(¼´´Óµ±Ç°»·¾³ÍË³ö·µ»ØÊ¹ÓÃPATH»·¾³ÖĞµÄÄ¬ÈÏpython°æ±¾)¡£
+6ã€å…³é—­è™šæ‹Ÿç¯å¢ƒ(å³ä»å½“å‰ç¯å¢ƒé€€å‡ºè¿”å›ä½¿ç”¨PATHç¯å¢ƒä¸­çš„é»˜è®¤pythonç‰ˆæœ¬)ã€‚
 
-   Ê¹ÓÃÈçÏÂÃüÁî¼´¿É¡£
+   ä½¿ç”¨å¦‚ä¸‹å‘½ä»¤å³å¯ã€‚
 
    Linux: source deactivate
 
    Windows: deactivate
 
-7¡¢É¾³ıĞéÄâ»·¾³¡£
+7ã€åˆ é™¤è™šæ‹Ÿç¯å¢ƒã€‚
 
-   Ê¹ÓÃÃüÁîconda remove -n your_env_name(ĞéÄâ»·¾³Ãû³Æ) --all£¬ ¼´¿ÉÉ¾³ı¡£
+   ä½¿ç”¨å‘½ä»¤conda remove -n your_env_name(è™šæ‹Ÿç¯å¢ƒåç§°) --allï¼Œ å³å¯åˆ é™¤ã€‚
 
-8¡¢É¾³ı»·¾³ÖĞµÄÄ³¸ö°ü¡£
+8ã€åˆ é™¤ç¯å¢ƒä¸­çš„æŸä¸ªåŒ…ã€‚
 
-   Ê¹ÓÃÃüÁîconda remove --name your_env_name  package_name ¼´¿É¡£
+   ä½¿ç”¨å‘½ä»¤conda remove --name your_env_name  package_name å³å¯ã€‚
+   
+   
+9ã€å¤åˆ¶æŸä¸ªç¯å¢ƒ
+
+conda create --name new_env_name --clone old_env_name 
+
+10ã€åˆ†äº«ç¯å¢ƒ
+å¦‚æœä½ æƒ³æŠŠä½ å½“å‰çš„ç¯å¢ƒé…ç½®ä¸åˆ«äººåˆ†äº«ï¼Œè¿™æ ·taå¯ä»¥å¿«é€Ÿå»ºç«‹ä¸€ä¸ªä¸ä½ ä¸€æ¨¡ä¸€æ ·çš„ç¯å¢ƒï¼ˆåŒä¸€ä¸ªç‰ˆæœ¬çš„pythonåŠå„ç§åŒ…ï¼‰æ¥å…±åŒå¼€å‘/è¿›è¡Œæ–°çš„å®éªŒã€‚ä¸€ä¸ªåˆ†äº«ç¯å¢ƒçš„å¿«é€Ÿæ–¹æ³•å°±æ˜¯ç»™taä¸€ä¸ªä½ çš„ç¯å¢ƒçš„.ymlæ–‡ä»¶ã€‚
+
+é¦–å…ˆé€šè¿‡activate target_envè¦åˆ†äº«çš„ç¯å¢ƒtarget_envï¼Œç„¶åè¾“å…¥ä¸‹é¢çš„å‘½ä»¤ä¼šåœ¨å½“å‰å·¥ä½œç›®å½•ä¸‹ç”Ÿæˆä¸€ä¸ªenvironment.ymlæ–‡ä»¶ï¼Œ
+
+conda env export > environment.yml
+1
+å°ä¼™ä¼´æ‹¿åˆ°environment.ymlæ–‡ä»¶åï¼Œå°†è¯¥æ–‡ä»¶æ”¾åœ¨å·¥ä½œç›®å½•ä¸‹ï¼Œå¯ä»¥é€šè¿‡ä»¥ä¸‹å‘½ä»¤ä»è¯¥æ–‡ä»¶åˆ›å»ºç¯å¢ƒ
+
+conda env create -f environment.yml
